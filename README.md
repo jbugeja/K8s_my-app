@@ -9,6 +9,7 @@ Step 2: Prerequists
 - Ensure Ingress controller is installed
     - https://kubernetes.github.io/ingress-nginx/deploy/
 - Include my-app.com in hosts file of local machine
+    - 127.0.0.1 my-app.com
 
 Step 3: Run manifests
 - navigate to manifests dir
@@ -22,6 +23,7 @@ Step 4: Access applications:
 Step5: Test app
 - open app and click on Edit Profile
 - edit contents and click Update Profile
+- verify changes on mongo express
 ---
 
 To stop & delete entire env:
