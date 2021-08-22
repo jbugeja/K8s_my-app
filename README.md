@@ -10,6 +10,7 @@ Step 2: Prerequists
     - https://kubernetes.github.io/ingress-nginx/deploy/
 - Include my-app.com in hosts file of local machine
     - 127.0.0.1 my-app.com
+- ensure dir /mnt/data is created for persistent storage
 
 Step 3: Run manifests
 - navigate to manifests dir
