@@ -19,6 +19,9 @@ Step 4: Access applications:
 - my-app: http://my-app.com
 - mongo express: http://localhost:30001
 
+Step5: Test app
+- open app and click on Edit Profile
+- edit contents and click Update Profile
 ---
 
 To stop & delete entire env:
