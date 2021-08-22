@@ -3,7 +3,7 @@ Deploying my-app with Kubernetes locally
 Step 1: Build image
 - navigate to my-app dir (where Dockerfile is present)
 - run
-    - docker build -t my-app:[1.3] .
+    - docker build -t my-app:1.3 .
 
 Step 2: Prerequists
 - Ensure Ingress controller is installed
